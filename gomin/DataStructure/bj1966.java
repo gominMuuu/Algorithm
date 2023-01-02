@@ -1,5 +1,4 @@
 package DataStructure;
-
 import java.util.*;
 
 // id와 중요도를 갖는 Printer 클래스 작성
