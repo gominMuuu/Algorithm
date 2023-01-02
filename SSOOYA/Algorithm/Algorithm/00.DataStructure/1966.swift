@@ -8,6 +8,7 @@
 import Foundation
 
 typealias Element = Int
+
 struct Queue{
     var front: Int = 0
     var rear: Int = 0
