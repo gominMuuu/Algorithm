@@ -10,8 +10,6 @@ import Foundation
 typealias Element = Int
 
 struct Queue{
-    var front: Int = 0
-    var rear: Int = 0
     var data: [Int] = []
     
     mutating func enqueue(_ element: Element){
@@ -63,13 +61,13 @@ for _ in 0..<testCount{
                 break
             }
             count = count + 1
-            docCountAndWantFind[1] = docCountAndWantFind[1] - 1
         }else{
             queueTest.enqueue(element)
-            docCountAndWantFind[1] = docCountAndWantFind[1] - 1
-            if(docCountAndWantFind[1] < 0){
-                docCountAndWantFind[1] = docCountAndWantFind[1] + queueTest.getElementCount()
-            }
+        }
+        
+        docCountAndWantFind[1] = docCountAndWantFind[1] - 1
+        if(docCountAndWantFind[1] < 0){
+            docCountAndWantFind[1] = docCountAndWantFind[1] + queueTest.getElementCount()
         }
     }
 }
