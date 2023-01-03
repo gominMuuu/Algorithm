@@ -6,7 +6,9 @@
 //
 
 import Foundation
-typealias Element = Double
+
+typealias Element = Double //Float형일 경우 틀린 답. 데이터 크기 조심!
+
 struct Stack{
     var data: [Element] = []
     var top: Int = -1
@@ -15,15 +17,17 @@ struct Stack{
         self.top = self.top + 1
         self.data.insert(new, at: top)
     }
-   mutating func pop() -> Element{
-       let popElement = self.data[self.top]
+    
+    mutating func pop() -> Element{
+        let popElement = self.data[self.top]
         self.top = self.top - 1
-       return popElement
+        return popElement
     }
 }
 
 let size = Int(readLine()!)!
 let expression = readLine()!
+
 var stack = Stack()
 
 var mapping: [Character:Element] = [:]
@@ -53,4 +57,6 @@ expression.forEach{ char in
     }
     stack.push(new: result)
 }
+
 print(String(format: "%.2f", stack.pop()))
+
