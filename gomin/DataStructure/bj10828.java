@@ -3,10 +3,7 @@ package DataStructure;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.Stack;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class bj10828 {
     public static void main(String[] args) throws NumberFormatException, IOException {
