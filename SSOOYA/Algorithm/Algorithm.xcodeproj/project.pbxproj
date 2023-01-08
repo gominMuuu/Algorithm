@@ -6,6 +6,10 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		57C481EA296B88EF008731D9 /* 10828.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C481E9296B88EF008731D9 /* 10828.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		57600BF62962576B00A7F27B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -28,6 +32,7 @@
 		57600C0429625A6400A7F27B /* 1966.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1966.swift; sourceTree = "<group>"; };
 		57C4818B29679236008731D9 /* 10799.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10799.swift; sourceTree = "<group>"; };
 		57C4818D2967BECB008731D9 /* 22942.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 22942.swift; sourceTree = "<group>"; };
+		57C481E9296B88EF008731D9 /* 10828.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10828.swift; sourceTree = "<group>"; };
 		57F68BA32964F32700DB1471 /* 1874.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1874.swift; sourceTree = "<group>"; };
 		57F68BA529650F2000DB1471 /* 18258.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18258.swift; sourceTree = "<group>"; };
 		57F68BAB2966432800DB1471 /* 1918.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1918.swift; sourceTree = "<group>"; };
@@ -66,6 +71,7 @@
 			children = (
 				574E1CA32963DE76005D2048 /* FileIO.swift */,
 				57600C03296259FB00A7F27B /* DataStructure */,
+				57C481E8296B88C8008731D9 /* DataStructure2 */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -84,8 +90,16 @@
 				57F68BAD296656D300DB1471 /* 2800_fail.swift */,
 				57C4818B29679236008731D9 /* 10799.swift */,
 				57C4818D2967BECB008731D9 /* 22942.swift */,
+				57C481E9296B88EF008731D9 /* 10828.swift */,
 			);
 			path = DataStructure;
+			sourceTree = "<group>";
+		};
+		57C481E8296B88C8008731D9 /* DataStructure2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataStructure2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C481EA296B88EF008731D9 /* 10828.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
