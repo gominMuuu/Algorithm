@@ -74,7 +74,7 @@ func includeBracket(index: Int, willRemove: [Int]){
         return
     }
     
-    let remove = willRemove.sorted(by: >)
+    let remove = willRemove.sorted(by: >) //내림차순 정렬
     var removeExpr = expression
     for i in remove{
         let removeIndex = expression.index(expression.startIndex, offsetBy: i)
