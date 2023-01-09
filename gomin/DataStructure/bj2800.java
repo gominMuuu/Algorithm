@@ -58,7 +58,16 @@ public class bj2800 {
         // 답을 사전 순으로 정렬한다.
         Collections.sort(answer);
         answer.remove(0);   // 전체집합에 해당하는 인덱스0의 값을 제거
-        for(String x : answer) {
+
+        ArrayList<String> newAnswer = new ArrayList<>();
+        // 새로운 ArrayList에 요소를 추가
+        for(String strValue : answer) {
+            // 중복 요소가 없는 경우 요소를 추가
+            if(!newAnswer.contains(strValue)) {
+                newAnswer.add(strValue);
+            }
+        }
+        for(String x : newAnswer) {
             System.out.println(x);
         }
     }
