@@ -40,22 +40,22 @@ final class FileIO {
         
         return sum * (isPositive ? 1:-1)
     }
-
-
+    
+    
     @inline(__always) func readString() -> String {
-            var str = ""
-            var now = read()
-
-            while now == 10
-                    || now == 32 { now = read() } // 공백과 줄바꿈 무시
-
-            while now != 10
-                    && now != 32 && now != 0 {
-                str += String(bytes: [now], encoding: .ascii)!
-                now = read()
-            }
-
-            return str
+        var str = ""
+        var now = read()
+        
+        while now == 10
+                || now == 32 { now = read() } // 공백과 줄바꿈 무시
+        
+        while now != 10
+                && now != 32 && now != 0 {
+            str += String(bytes: [now], encoding: .ascii)!
+            now = read()
         }
-  }
+        
+        return str
+    }
+}
 
