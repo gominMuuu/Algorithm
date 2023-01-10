@@ -1,25 +1,26 @@
 //
-//  7662_retry.swift
+//  PriorityQueue.swift
 //  Algorithm
 //
 //  Created by 박지윤 on 2023/01/10.
 //
-//  백준 7662번 이중 우선순위 큐
-//  https://www.acmicpc.net/problem/7662
 
 import Foundation
 
 struct Heap<T: Comparable> {
+    
     private var elements: [T] = []
     private let sortFunction: (T, T) -> Bool
     
     var isEmpty: Bool {
         return self.elements.count == 1
     }
+    
     var peek: T? {
         if self.isEmpty { return nil }
         return self.elements.last!
     }
+    
     var count: Int {
         return self.elements.count - 1
     }
@@ -30,6 +31,7 @@ struct Heap<T: Comparable> {
         } else {
             self.elements = elements
         }
+        
         self.sortFunction = sortFunction
         if elements.count > 1 {
             self.buildHeap()
@@ -39,15 +41,19 @@ struct Heap<T: Comparable> {
     func leftChild(of index: Int) -> Int {
         return index * 2
     }
+    
     func rightChild(of index: Int) -> Int {
         return index * 2 + 1
     }
+    
     func parent(of index: Int) -> Int {
         return (index) / 2
     }
+    
     mutating func add(element: T) {
         self.elements.append(element)
     }
+    
     mutating func diveDown(from index: Int) {
         var higherPriority = index
         let leftIndex = self.leftChild(of: index)
@@ -64,6 +70,7 @@ struct Heap<T: Comparable> {
             self.diveDown(from: higherPriority)
         }
     }
+    
     mutating func swimUp(from index: Int) {
         var index = index
         while index != 1 && self.sortFunction(self.elements[index], self.elements[self.parent(of: index)]) {
@@ -71,11 +78,13 @@ struct Heap<T: Comparable> {
             index = self.parent(of: index)
         }
     }
+    
     mutating func buildHeap() {
         for index in (1...(self.elements.count / 2)).reversed() {
             self.diveDown(from: index)
         }
     }
+    
     mutating func insert(node: T) {
         if self.elements.isEmpty {
             self.elements.append(node)
@@ -83,6 +92,7 @@ struct Heap<T: Comparable> {
         self.elements.append(node)
         self.swimUp(from: self.elements.endIndex - 1)
     }
+    
     mutating func remove() -> T? {
         if self.isEmpty { return nil }
         self.elements.swapAt(1, elements.endIndex - 1)
@@ -93,95 +103,79 @@ struct Heap<T: Comparable> {
     }
 }
 
-struct Input: Comparable{
+/*
+struct Heap<T: Comparable>{
     
-    let index: Int
-    let priority: Int
+    private var heap = [T]()
     
-    static func < (lhs: Input, rhs: Input) -> Bool {
-        lhs.priority < rhs.priority
+    private let sort: (T, T) -> Bool     // > : 최대
+                                         // < : 최소
+    
+    init(sort: @escaping (T,T) -> Bool){
+        self.sort = sort
     }
-}
-
-
-let fileIO = FileIO()
-let testCount = fileIO.readInt()
-
-var result = [[Int]?](repeating: nil, count: testCount)
-for i in 0..<testCount{
     
-    let operatorAmount = fileIO.readInt()
-    
-    var maxQueue = Heap<Input>(sortFunction: >)
-    var minQueue = Heap<Input>(sortFunction: <)
-    var validation = [Bool](repeating: true, count: operatorAmount)
-    
-    for c in 0..<operatorAmount{
+    mutating func insert(_ element: T){
         
-        let command = fileIO.readString()
-        let valueCommand = fileIO.readInt()
+        if(heap.isEmpty){ //index 기준 1로 잡기 위한 설정
+            heap.append(element)
+        }
         
-        switch command{
-        case "D":
-            if(valueCommand == 1){
-                //최대값 제거
-                while(!maxQueue.isEmpty){
-                    let remove = maxQueue.remove()!
-                    if(validation[remove.index]){
-                        validation[remove.index] = false
-                        break
-                    }
-                }
-            }else{
-                //최소값 제거
-                while(!minQueue.isEmpty){
-                    let remove = minQueue.remove()!
-                    if(validation[remove.index]){
-                        validation[remove.index] = false
-                        break
-                    }
-                }
+        var index = heap.count
+        heap.append(element)
+        
+        while(index != 1 && sort(element, heap[index/2])){
+            heap[index] = heap[index/2]
+            index = index / 2
+        }
+        
+        heap[index] = element
+    }
+    
+    mutating func remove() -> T{
+        
+        var parent: Int = 1
+        var child: Int = 2
+        
+        let item = heap[1]
+        let temp = heap[size]
+    
+        
+        while(child <= self.size - 1){
+            if(child < self.size - 1  && sort(heap[child], heap[child + 1])){
+                child = child + 1
             }
-            break
-        case "I":
-            maxQueue.insert(node: Input(index: c, priority: valueCommand))
-            minQueue.insert(node: Input(index: c, priority: valueCommand))
-            break
-        default:
-            continue
+            if(!sort(temp, heap[child])){
+                break
+            }
+            
+            heap[parent] = heap[child]
+            parent = child
+            child = child * 2
         }
+        
+        heap[parent] = temp
+        heap.removeLast()
+        return item
     }
     
-    var max, min: Int!
-    while(!maxQueue.isEmpty){
-        let element = maxQueue.remove()!
-        if(validation[element.index]){
-            max = element.priority
-            break
-        }
+    mutating func clear(){
+        heap.removeAll()
     }
     
-    while(!minQueue.isEmpty){
-        let element = minQueue.remove()!
-        if(validation[element.index]){
-            min = element.priority
-            break
+    func peek() -> T?{
+        if(isEmpty()){
+            return nil
         }
+        return heap.last
     }
     
-    if(max != nil || min != nil){
-        result[i] = [max, min]
+    var size: Int{
+        heap.count - 1
+    }
+    
+    func isEmpty() -> Bool{
+        heap.count == 0 || heap.count == 1
     }
 }
-
-var index = 0
-while(index < testCount){
-    
-    if(result[index] == nil){
-        print("EMPTY")
-    }else{
-        let value = result[index]!
-        print(value[0], value[1])
-    }
-    index = index + 1
-}
+*/
