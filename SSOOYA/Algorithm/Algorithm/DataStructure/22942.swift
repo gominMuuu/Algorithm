@@ -14,7 +14,12 @@ struct Circle{
     let radius: Int
 }
 
-typealias Element = Int
+struct Point{
+    let x: Int
+    let center: Int
+}
+
+typealias Element = Point
 
 struct Stack{
     
@@ -41,13 +46,13 @@ struct Stack{
     }
 }
 
-let amount = Int(readLine()!)!
+let fileIO = FileIO()
+let amount = fileIO.readInt()
 var storage = [Circle]()
 var stack = Stack()
 
 for _ in 0..<amount{
-    let data = readLine()!.split(separator: " ").map({ Int($0)! })
-    storage.append(Circle(x: data[0], radius: data[1]))
+    storage.append(Circle(x: fileIO.readInt(), radius: fileIO.readInt()))
 }
 
 for circle in storage{
@@ -55,9 +60,9 @@ for circle in storage{
     let minPoint = circle.x - circle.radius
     let maxPoint = circle.x + circle.radius
 
-    if(stack.isEmpty() || stack.peek()! < minPoint){
-        stack.push(minPoint)
-        stack.push(maxPoint)
+    if(stack.isEmpty() || stack.peek()!.x < minPoint){
+        stack.push(Point(x: minPoint, center: circle.x))
+        stack.push(Point(x: maxPoint, center: circle.x))
         continue
     }
     
@@ -66,30 +71,38 @@ for circle in storage{
     while(!stack.isEmpty()){
         let peek = stack.peek()!
         
-        if(peek == minPoint || peek == maxPoint || (peek > minPoint && peek < maxPoint)){
+        
+        //반례 -> 특정 원보다 더 큰 원이 들어올 경우
+        if(peek.x == minPoint || peek.x == maxPoint){
             print("NO")
             exit(0)
+        }else if((peek.x > minPoint && peek.x < maxPoint)){
+            //peek의 minpoint보다 minpoint가 작으면 ㄱㅊ
+            if(peek.x - 2 * (peek.x - peek.center) < minPoint){
+                print("NO")
+                exit(0)
+            }
         }
         
-        if(peek > minPoint){
-            tempStack.push(stack.pop())
-        }else{
+        if(peek.x < minPoint){
             break
         }
+        tempStack.push(stack.pop())
     }
     
-    stack.push(minPoint)
+    stack.push(Point(x: minPoint, center: circle.x))
     
     while(!tempStack.isEmpty()){
         
         let peek = tempStack.peek()!
         
-        if(peek > maxPoint){
-            stack.push(maxPoint)
+        if(peek.x > maxPoint){
             break
         }
         stack.push(tempStack.pop())
     }
+    
+    stack.push(Point(x: maxPoint, center: circle.x))
     
     while(!tempStack.isEmpty()){
         stack.push(tempStack.pop())
