@@ -11,7 +11,7 @@ import Foundation
 
 let input = readLine()!.split(separator: " ").map( { Int($0)! })
 
-var dictionary = [String: Int]()
+var dictionary = [String: Int]() //Dictionary를 HashMap처럼 사용
 for i in 1...input[0]{
     let string = readLine()!
     dictionary[string] = i
