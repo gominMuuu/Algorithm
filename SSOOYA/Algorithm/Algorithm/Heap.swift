@@ -10,10 +10,11 @@ import Foundation
 struct Heap<T: Comparable> {
     
     private var elements: [T] = []
-    private let sortFunction: (T, T) -> Bool
+    private let sortFunction: (T, T) -> Bool // > : 최대
+                                             // < : 최소
     
     var isEmpty: Bool {
-        return self.elements.count == 1
+        return self.elements.count == 1 || self.elements.count == 0
     }
     
     var peek: T? {
