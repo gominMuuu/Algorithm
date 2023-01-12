@@ -11,7 +11,6 @@
 		57397FA8296D7ED70088B5F4 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FA7296D7ED70088B5F4 /* Queue.swift */; };
 		57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FA9296D7EDF0088B5F4 /* Deque.swift */; };
 		57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FAB296D7EEA0088B5F4 /* Heap.swift */; };
-		57397FC2296F7F3B0088B5F4 /* 2075.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FC0296F7C370088B5F4 /* 2075.swift */; };
 		57397FC4296F94C90088B5F4 /* 21942.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FC3296F94C90088B5F4 /* 21942.swift */; };
 		57C481F5296BD54D008731D9 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E1CA32963DE76005D2048 /* FileIO.swift */; };
 /* End PBXBuildFile section */
@@ -199,7 +198,6 @@
 				57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */,
 				57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */,
 				57C481F5296BD54D008731D9 /* FileIO.swift in Sources */,
-				57397FC2296F7F3B0088B5F4 /* 2075.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
