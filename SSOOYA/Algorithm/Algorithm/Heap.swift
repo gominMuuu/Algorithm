@@ -19,7 +19,7 @@ struct Heap<T: Comparable> {
     
     var peek: T? {
         if self.isEmpty { return nil }
-        return self.elements.last!
+        return self.elements[1]
     }
     
     var count: Int {
