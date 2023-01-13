@@ -63,7 +63,7 @@ if(result.isEmpty){
     print("-1")
     exit(0)
 }
-
+result.sort()
 result.forEach{
     print($0)
 }
