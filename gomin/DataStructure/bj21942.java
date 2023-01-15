@@ -26,7 +26,7 @@ public class bj21942 {
 
         // 해쉬맵 사용 <Item + User, DateTime>
         HashMap<String, String> map = new HashMap<>();
-        HashMap<String, Integer> fin = new HashMap<>();
+        HashMap<String, Long> fin = new HashMap<>();
 
         DateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm");
 
@@ -44,7 +44,7 @@ public class bj21942 {
                 String pDate = map.get(item + " " + user);
                 Date d1 = format.parse(pDate);
                 Date d2 = format.parse(date + " " + time);
-                int diff = (int) ((d2.getTime() - d1.getTime()) / 60000);
+                long diff = ((d2.getTime() - d1.getTime()) / 60000);
 
                 if(diff > range) {
                     // 만약 fin 해시맵에 이미 밀린 기록이 있다면,
