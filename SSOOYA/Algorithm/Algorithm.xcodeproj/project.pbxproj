@@ -11,7 +11,7 @@
 		57397FA8296D7ED70088B5F4 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FA7296D7ED70088B5F4 /* Queue.swift */; };
 		57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FA9296D7EDF0088B5F4 /* Deque.swift */; };
 		57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FAB296D7EEA0088B5F4 /* Heap.swift */; };
-		575DE94B2974C4EE00E61B8F /* 1764.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575DE94A2974C4EE00E61B8F /* 1764.swift */; };
+		575DE9522976133200E61B8F /* 17413.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575DE9512976133200E61B8F /* 17413.swift */; };
 		57C481F5296BD54D008731D9 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E1CA32963DE76005D2048 /* FileIO.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +47,7 @@
 		574E615D2970E1C3002BCDAF /* 21944.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21944.swift; sourceTree = "<group>"; };
 		575DE9482974BFDB00E61B8F /* 20291.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20291.swift; sourceTree = "<group>"; };
 		575DE94A2974C4EE00E61B8F /* 1764.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1764.swift; sourceTree = "<group>"; };
+		575DE9512976133200E61B8F /* 17413.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17413.swift; sourceTree = "<group>"; };
 		57600BF82962576B00A7F27B /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		57600BFB2962576B00A7F27B /* 1935.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1935.swift; sourceTree = "<group>"; };
 		57600C0429625A6400A7F27B /* 1966.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1966.swift; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 			children = (
 				575DE9482974BFDB00E61B8F /* 20291.swift */,
 				575DE94A2974C4EE00E61B8F /* 1764.swift */,
+				575DE9512976133200E61B8F /* 17413.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -210,7 +212,7 @@
 			files = (
 				57397FA6296D7ECC0088B5F4 /* Stack.swift in Sources */,
 				57397FA8296D7ED70088B5F4 /* Queue.swift in Sources */,
-				575DE94B2974C4EE00E61B8F /* 1764.swift in Sources */,
+				575DE9522976133200E61B8F /* 17413.swift in Sources */,
 				57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */,
 				57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */,
 				57C481F5296BD54D008731D9 /* FileIO.swift in Sources */,
