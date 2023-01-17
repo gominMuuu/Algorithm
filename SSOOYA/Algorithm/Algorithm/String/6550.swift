@@ -34,3 +34,4 @@ inputLoop: while let line = readLine() {
 result.forEach{
     print($0)
 }
+
