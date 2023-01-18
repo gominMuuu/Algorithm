@@ -21,7 +21,7 @@ inputLoop: while let line = readLine() {
     for i in input[1]{
         if(s_char == i){
             s_index = s_index + 1
-            if(s_index == input[0].count){
+            if(s_index == target.count){
                 result.append("YES")
                 continue inputLoop
             }
