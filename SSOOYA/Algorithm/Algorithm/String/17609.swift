@@ -53,7 +53,6 @@ inputLoop: for _ in 1...count{
             checkWithRemoveCharacter(leftRemove, i) || checkWithRemoveCharacter(rightRemove, i) ? print("1") : print("2")
             continue inputLoop
         }
-        
     }
     print("0")
 }
