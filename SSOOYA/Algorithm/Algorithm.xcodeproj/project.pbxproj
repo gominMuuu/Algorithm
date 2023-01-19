@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		570304C62978BB3600AAC56D /* 1181.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570304C52978BB3600AAC56D /* 1181.swift */; };
+		570304CA2978BF3F00AAC56D /* 20210.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570304C92978BF3F00AAC56D /* 20210.swift */; };
 		57397FA6296D7ECC0088B5F4 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FA5296D7ECC0088B5F4 /* Stack.swift */; };
 		57397FA8296D7ED70088B5F4 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FA7296D7ED70088B5F4 /* Queue.swift */; };
 		57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FA9296D7EDF0088B5F4 /* Deque.swift */; };
@@ -29,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		570304C52978BB3600AAC56D /* 1181.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1181.swift; sourceTree = "<group>"; };
+		570304C92978BF3F00AAC56D /* 20210.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20210.swift; sourceTree = "<group>"; };
 		57397F81296CD7BD0088B5F4 /* 14425.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14425.swift; sourceTree = "<group>"; };
 		57397F83296CDAC00088B5F4 /* 7662.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7662.swift; sourceTree = "<group>"; };
 		57397FA5296D7ECC0088B5F4 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
@@ -87,6 +88,7 @@
 				5799DB6C2977656B001137EA /* 9046.swift */,
 				5799DB6E29776B99001137EA /* 17609.swift */,
 				570304C52978BB3600AAC56D /* 1181.swift */,
+				570304C92978BF3F00AAC56D /* 20210.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -218,11 +220,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				570304C62978BB3600AAC56D /* 1181.swift in Sources */,
 				57397FA6296D7ECC0088B5F4 /* Stack.swift in Sources */,
 				57397FA8296D7ED70088B5F4 /* Queue.swift in Sources */,
 				57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */,
 				57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */,
+				570304CA2978BF3F00AAC56D /* 20210.swift in Sources */,
 				57C481F5296BD54D008731D9 /* FileIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
