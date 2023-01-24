@@ -11,11 +11,24 @@ import java.util.*;
  */
 
 class Node {
-    char data;
+    char charData;
+    int intData;
+    String strData;
+
     Node lt, rt;
 
     public Node(char data, Node lt, Node rt) {
-        this.data = data;
+        this.charData = data;
+        this.lt = lt;
+        this.rt = rt;
+    }
+    public Node(int data, Node lt, Node rt) {
+        this.intData = data;
+        this.lt = lt;
+        this.rt = rt;
+    }
+    public Node(String data, Node lt, Node rt) {
+        this.strData = data;
         this.lt = lt;
         this.rt = rt;
     }
@@ -36,7 +49,7 @@ public class bj1991 {
     public static void preOrder(Node root) {
         if(root == null) return;
         else {
-            System.out.printf(root.data + "");
+            System.out.printf(root.charData + "");
             preOrder(root.lt);
             preOrder(root.rt);
         }
@@ -46,7 +59,7 @@ public class bj1991 {
         if(root == null) return;
         else {
             inOrder(root.lt);
-            System.out.printf(root.data + "");
+            System.out.printf(root.charData + "");
             inOrder(root.rt);
         }
     }
@@ -56,12 +69,12 @@ public class bj1991 {
         else {
             postOrder(root.lt);
             postOrder(root.rt);
-            System.out.printf(root.data + "");
+            System.out.printf(root.charData + "");
         }
     }
 
     public static void insertNode(Node temp, char root, char left, char right) {
-        if (temp.data == root) {
+        if (temp.charData == root) {
             temp.lt = (left == '.' ? null : new Node(left,null,null));
             temp.rt = (right == '.' ? null : new Node(right,null,null));
         }
