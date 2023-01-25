@@ -12,7 +12,6 @@ import Foundation
 let count = Int(readLine()!)!
 
 var tree = [String](repeating: "A", count: 2)
-
 var nodeIndex = [String:Int]()
 
 for _ in 1...count{
