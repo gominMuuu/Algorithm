@@ -23,9 +23,9 @@ unsolve/#issu_number: ~
 | 02 | Tree | 트리 | [바로가기](./workbook/트리) | 15 | 44 |
 | 03 | Math | 수학 | [바로가기](./workbook/수학) | 18 | 29 | 
 | 04 | Greedy | 탐욕법 | [바로가기](./workbook/탐욕) | 27 | 62 | 
-| 05 | Dynamic Programming 1 | 동적계획법 1 | [바로가기](./dynamic_programming_1) | 27 | 80 |
-| 06 | Dynamic Programming 2 | 동적계획법 2 | [바로가기](./dynamic_programming_2) | 28 | 81 | 
-| 07 | Two Pointer | 투 포인터 | [바로가기](./two_pointer) | 13 | 36 |
+| 05 | Dynamic Programming 1 | 동적계획법 1 | [바로가기](./workbook/동적계획법1) | 27 | 80 |
+| 06 | Dynamic Programming 2 | 동적계획법 2 | [바로가기](./workbook/동적계획법2) | 28 | 81 | 
+| 07 | Two Pointer | 투 포인터 | [바로가기](./workbook/투포인터) | 13 | 36 |
 | 08 | Implementation | 구현 | [바로가기](./implementation) | 30 | 51 | 
 | 09 | Graph Traversal | 그래프 탐색 | [바로가기](./graph_traversal) | 31 | 96 |
 | 10 | Brute Force | 완전탐색 | [바로가기](./brute_force) | 33 | 94 |
