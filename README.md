@@ -7,12 +7,12 @@ solve/#issue_number: ~
 unsolve/#issu_number: ~
 ```
 
-### 이번 주 문제 - "트리"
+### 이번 주 문제 - "탐욕"
 
-| 1/24(화) | 1/25(수) | 1/26(목) | 1/27(금) |
+| 1/30(월) | 1/31(화) | 2/1(수) | 2/2(목) |
 | --- | --- | --- | --- |
-| [11725](https://www.acmicpc.net/problem/11725) | [2263](https://www.acmicpc.net/problem/2263) | [6416](https://www.acmicpc.net/problem/6416) | [9934](https://www.acmicpc.net/problem/9934) |
-| [1991](https://www.acmicpc.net/problem/1991) | [14267](https://www.acmicpc.net/problem/14267) | [5639](https://www.acmicpc.net/problem/5639) | [2250](https://www.acmicpc.net/problem/2250) |
+| [1541](https://www.acmicpc.net/problem/1541) | [13305](https://www.acmicpc.net/problem/13305) | [8980](https://www.acmicpc.net/problem/8980) | [1931](https://www.acmicpc.net/problem/1931) |
+| [1715](https://www.acmicpc.net/problem/1715) | [19598](https://www.acmicpc.net/problem/19598) | [1092](https://www.acmicpc.net/problem/1092) | [11000](https://www.acmicpc.net/problem/11000) |
 
 ---
 
