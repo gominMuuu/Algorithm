@@ -1,6 +1,6 @@
 # Greedy (그리디)
 
-[메인으로 돌아가기](https://github.com/tony9402/baekjoon)
+[메인으로 돌아가기](https://github.com/gominMuuu/Algorithm)
 
 쉬운 그리디부터 조금 고민을 해야하는 그리디까지 다양하게 뽑아봤습니다.
 

@@ -7,12 +7,12 @@ solve/#issue_number: ~
 unsolve/#issu_number: ~
 ```
 
-### 이번 주 문제 - "트리"
+### 이번 주 문제 - "탐욕"
 
-| 1/24(화) | 1/25(수) | 1/26(목) | 1/27(금) |
+| 1/30(월) | 1/31(화) | 2/1(수) | 2/2(목) |
 | --- | --- | --- | --- |
-| [11725](https://www.acmicpc.net/problem/11725) | [2263](https://www.acmicpc.net/problem/2263) | [6416](https://www.acmicpc.net/problem/6416) | [9934](https://www.acmicpc.net/problem/9934) |
-| [1991](https://www.acmicpc.net/problem/1991) | [14267](https://www.acmicpc.net/problem/14267) | [5639](https://www.acmicpc.net/problem/5639) | [2250](https://www.acmicpc.net/problem/2250) |
+| [1541](https://www.acmicpc.net/problem/1541) | [13305](https://www.acmicpc.net/problem/13305) | [8980](https://www.acmicpc.net/problem/8980) | [1931](https://www.acmicpc.net/problem/1931) |
+| [1715](https://www.acmicpc.net/problem/1715) | [19598](https://www.acmicpc.net/problem/19598) | [1092](https://www.acmicpc.net/problem/1092) | [11000](https://www.acmicpc.net/problem/11000) |
 
 ---
 
@@ -23,9 +23,9 @@ unsolve/#issu_number: ~
 | 02 | Tree | 트리 | [바로가기](./workbook/트리) | 15 | 44 |
 | 03 | Math | 수학 | [바로가기](./workbook/수학) | 18 | 29 | 
 | 04 | Greedy | 탐욕법 | [바로가기](./workbook/탐욕) | 27 | 62 | 
-| 05 | Dynamic Programming 1 | 동적계획법 1 | [바로가기](./dynamic_programming_1) | 27 | 80 |
-| 06 | Dynamic Programming 2 | 동적계획법 2 | [바로가기](./dynamic_programming_2) | 28 | 81 | 
-| 07 | Two Pointer | 투 포인터 | [바로가기](./two_pointer) | 13 | 36 |
+| 05 | Dynamic Programming 1 | 동적계획법 1 | [바로가기](./workbook/동적계획법1) | 27 | 80 |
+| 06 | Dynamic Programming 2 | 동적계획법 2 | [바로가기](./workbook/동적계획법2) | 28 | 81 | 
+| 07 | Two Pointer | 투 포인터 | [바로가기](./workbook/투포인터) | 13 | 36 |
 | 08 | Implementation | 구현 | [바로가기](./implementation) | 30 | 51 | 
 | 09 | Graph Traversal | 그래프 탐색 | [바로가기](./graph_traversal) | 31 | 96 |
 | 10 | Brute Force | 완전탐색 | [바로가기](./brute_force) | 33 | 94 |
