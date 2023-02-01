@@ -12,7 +12,7 @@
 		57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FA9296D7EDF0088B5F4 /* Deque.swift */; };
 		57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FAB296D7EEA0088B5F4 /* Heap.swift */; };
 		57C481F5296BD54D008731D9 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E1CA32963DE76005D2048 /* FileIO.swift */; };
-		EE7C9FF02989DE6200D2F238 /* 8980.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7C9FEF2989DE6200D2F238 /* 8980.swift */; };
+		EE7C9FF22989F7E500D2F238 /* 1092.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7C9FF12989F7E500D2F238 /* 1092.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -76,6 +76,7 @@
 		EE50C55629889CB9005EA82C /* 13305_solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13305_solution.swift; sourceTree = "<group>"; };
 		EE50C55829889F8F005EA82C /* 19598.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 19598.swift; sourceTree = "<group>"; };
 		EE7C9FEF2989DE6200D2F238 /* 8980.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8980.swift; sourceTree = "<group>"; };
+		EE7C9FF12989F7E500D2F238 /* 1092.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1092.swift; sourceTree = "<group>"; };
 		EE9505CC298738AA00077B28 /* 1541.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1541.swift; sourceTree = "<group>"; };
 		EE9505CE29874C6400077B28 /* 1715.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1715.swift; sourceTree = "<group>"; };
 		EE98F0B52980A0F8007BFCCD /* 2263.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2263.swift; sourceTree = "<group>"; };
@@ -207,6 +208,7 @@
 				EE50C55629889CB9005EA82C /* 13305_solution.swift */,
 				EE50C55829889F8F005EA82C /* 19598.swift */,
 				EE7C9FEF2989DE6200D2F238 /* 8980.swift */,
+				EE7C9FF12989F7E500D2F238 /* 1092.swift */,
 			);
 			path = Greedy;
 			sourceTree = "<group>";
@@ -271,8 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				57397FA6296D7ECC0088B5F4 /* Stack.swift in Sources */,
+				EE7C9FF22989F7E500D2F238 /* 1092.swift in Sources */,
 				57397FA8296D7ED70088B5F4 /* Queue.swift in Sources */,
-				EE7C9FF02989DE6200D2F238 /* 8980.swift in Sources */,
 				57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */,
 				57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */,
 				57C481F5296BD54D008731D9 /* FileIO.swift in Sources */,
