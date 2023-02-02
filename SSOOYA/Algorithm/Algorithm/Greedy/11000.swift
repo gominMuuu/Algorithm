@@ -21,8 +21,8 @@ var time = [Lecture]()
 var validation = [Bool](repeating: false, count: n)
 for i in 0..<n{
     let meeting = readLine()!.split(separator: " ").map({ Int($0)! })
-    time.append(Meeting(id: i, time: meeting[0], type: 0))
-    time.append(Meeting(id: i, time: meeting[1], type: 1))
+    time.append(Lecture(id: i, time: meeting[0], type: 0))
+    time.append(Lecture(id: i, time: meeting[1], type: 1))
 }
 
 time.sort(by: {
