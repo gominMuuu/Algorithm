@@ -12,7 +12,7 @@
 		57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FA9296D7EDF0088B5F4 /* Deque.swift */; };
 		57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FAB296D7EEA0088B5F4 /* Heap.swift */; };
 		57C481F5296BD54D008731D9 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E1CA32963DE76005D2048 /* FileIO.swift */; };
-		EEA0C0CC298B3F3B00BF290D /* 1931.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA0C0CB298B3F3B00BF290D /* 1931.swift */; };
+		EEAEC88F298C7F51001B1D62 /* 21758.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAEC88E298C7F51001B1D62 /* 21758.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +85,7 @@
 		EEA0C0CB298B3F3B00BF290D /* 1931.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1931.swift; sourceTree = "<group>"; };
 		EEA8BF4F2983428800B1A4CD /* 9934.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9934.swift; sourceTree = "<group>"; };
 		EEA8BF512983495B00B1A4CD /* 2250.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2250.swift; sourceTree = "<group>"; };
+		EEAEC88E298C7F51001B1D62 /* 21758.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21758.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +214,7 @@
 				EE7C9FF12989F7E500D2F238 /* 1092.swift */,
 				EEA0C0CB298B3F3B00BF290D /* 1931.swift */,
 				EEA0C0C9298B3EA100BF290D /* 11000.swift */,
+				EEAEC88E298C7F51001B1D62 /* 21758.swift */,
 			);
 			path = Greedy;
 			sourceTree = "<group>";
@@ -277,9 +279,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				57397FA6296D7ECC0088B5F4 /* Stack.swift in Sources */,
-				EEA0C0CC298B3F3B00BF290D /* 1931.swift in Sources */,
 				57397FA8296D7ED70088B5F4 /* Queue.swift in Sources */,
 				57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */,
+				EEAEC88F298C7F51001B1D62 /* 21758.swift in Sources */,
 				57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */,
 				57C481F5296BD54D008731D9 /* FileIO.swift in Sources */,
 			);

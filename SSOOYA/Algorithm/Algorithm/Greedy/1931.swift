@@ -22,6 +22,17 @@ for _ in 0..<n{
     time.append(Meeting(start: meeting[0], end: meeting[1]))
 }
 
+/*
+ 1 3
+ 3 3
+ 위와 같은 경우에서
+ 
+ 1 3
+ 3 3 으로 정렬되어야 함
+ 
+ WHY? 3 3도 카운트 되어야 하기 때문
+ 
+ */
 time.sort(by: {
     if($0.end == $1.end){
         return $0.start < $1.start
