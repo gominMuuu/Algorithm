@@ -9,10 +9,10 @@ unsolve/#issu_number: ~
 
 ### 이번 주 문제 - "탐욕"
 
-| 1/30(월) | 1/31(화) | 2/1(수) | 2/2(목) |
-| --- | --- | --- | --- |
-| [1541](https://www.acmicpc.net/problem/1541) | [13305](https://www.acmicpc.net/problem/13305) | [8980](https://www.acmicpc.net/problem/8980) | [1931](https://www.acmicpc.net/problem/1931) |
-| [1715](https://www.acmicpc.net/problem/1715) | [19598](https://www.acmicpc.net/problem/19598) | [1092](https://www.acmicpc.net/problem/1092) | [11000](https://www.acmicpc.net/problem/11000) |
+| 1/30(월) | 1/31(화) | 2/1(수) | 2/2(목) | 2/3(금) |
+| --- | --- | --- | --- | --- |
+| [1541](https://www.acmicpc.net/problem/1541) | [13305](https://www.acmicpc.net/problem/13305) | [8980](https://www.acmicpc.net/problem/8980) | [1931](https://www.acmicpc.net/problem/1931) | [21758](https://www.acmicpc.net/problem/21758) |
+| [1715](https://www.acmicpc.net/problem/1715) | [19598](https://www.acmicpc.net/problem/19598) | [1092](https://www.acmicpc.net/problem/1092) | [11000](https://www.acmicpc.net/problem/11000) | [2141](https://www.acmicpc.net/problem/2141) |
 
 ---
 
