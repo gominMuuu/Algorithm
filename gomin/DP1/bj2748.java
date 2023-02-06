@@ -4,9 +4,9 @@ import java.io.*;
 import java.util.*;
 
 public class bj2748 {
-    static int[] dp;
+    static long[] dp;
 
-    public static int fibo(int x) {
+    public static long fibo(int x) {
         if(dp[x] == -1) {
             dp[x] = fibo(x - 1) + fibo(x - 2);
         }
@@ -17,7 +17,7 @@ public class bj2748 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n = Integer.parseInt(br.readLine());
-        dp = new int[n + 1];
+        dp = new long[n + 1];
 
         for(int i=0; i<n+1; i++) {
             dp[i] = -1;
