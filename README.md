@@ -7,12 +7,12 @@ solve/#issue_number: ~
 unsolve/#issu_number: ~
 ```
 
-### 이번 주 문제 - "탐욕"
+### 이번 주 문제 - "동적계획법1"
 
-| 1/30(월) | 1/31(화) | 2/1(수) | 2/2(목) | 2/3(금) |
+| 2/6(월) | 2/7(화) | 2/8(수) | 2/9(목) | 2/10(금) |
 | --- | --- | --- | --- | --- |
-| [1541](https://www.acmicpc.net/problem/1541) | [13305](https://www.acmicpc.net/problem/13305) | [8980](https://www.acmicpc.net/problem/8980) | [1931](https://www.acmicpc.net/problem/1931) | [21758](https://www.acmicpc.net/problem/21758) |
-| [1715](https://www.acmicpc.net/problem/1715) | [19598](https://www.acmicpc.net/problem/19598) | [1092](https://www.acmicpc.net/problem/1092) | [11000](https://www.acmicpc.net/problem/11000) | [2141](https://www.acmicpc.net/problem/2141) |
+| [2748](https://www.acmicpc.net/problem/2748) | [9095](https://www.acmicpc.net/problem/9095) | [10844](https://www.acmicpc.net/problem/10844) | [9465](https://www.acmicpc.net/problem/9465) | [2579](https://www.acmicpc.net/problem/2579) |
+| [1463](https://www.acmicpc.net/problem/1463) | [2579](https://www.acmicpc.net/problem/2579) | [15486](https://www.acmicpc.net/problem/15486) | [2293](https://www.acmicpc.net/problem/2293) | [11053](https://www.acmicpc.net/problem/11053) |
 
 ---
 
