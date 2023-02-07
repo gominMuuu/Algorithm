@@ -12,7 +12,7 @@
 		57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FA9296D7EDF0088B5F4 /* Deque.swift */; };
 		57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FAB296D7EEA0088B5F4 /* Heap.swift */; };
 		57C481F5296BD54D008731D9 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E1CA32963DE76005D2048 /* FileIO.swift */; };
-		EE168C8D299077A80020D5CE /* 1463.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE168C8C299077A80020D5CE /* 1463.swift */; };
+		EE2628CB2991C5940013137C /* 9095.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2628CA2991C5940013137C /* 9095.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +71,7 @@
 		EE168C8C299077A80020D5CE /* 1463.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1463.swift; sourceTree = "<group>"; };
 		EE16DDAC297F4EA8002D4A65 /* 11725.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11725.swift; sourceTree = "<group>"; };
 		EE16DDAE297F62D6002D4A65 /* 1991.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1991.swift; sourceTree = "<group>"; };
+		EE2628CA2991C5940013137C /* 9095.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9095.swift; sourceTree = "<group>"; };
 		EE2BC3412981F03C002B5C60 /* 6416.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6416.swift; sourceTree = "<group>"; };
 		EE2BC34329820DF7002B5C60 /* 6416_retry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6416_retry.swift; sourceTree = "<group>"; };
 		EE2BC34529821C26002B5C60 /* 5639.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5639.swift; sourceTree = "<group>"; };
@@ -195,6 +196,7 @@
 			children = (
 				EE168C8A299072160020D5CE /* 2748.swift */,
 				EE168C8C299077A80020D5CE /* 1463.swift */,
+				EE2628CA2991C5940013137C /* 9095.swift */,
 			);
 			path = DynamicProgramming1;
 			sourceTree = "<group>";
@@ -295,9 +297,9 @@
 				57397FA6296D7ECC0088B5F4 /* Stack.swift in Sources */,
 				57397FA8296D7ED70088B5F4 /* Queue.swift in Sources */,
 				57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */,
+				EE2628CB2991C5940013137C /* 9095.swift in Sources */,
 				57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */,
 				57C481F5296BD54D008731D9 /* FileIO.swift in Sources */,
-				EE168C8D299077A80020D5CE /* 1463.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
