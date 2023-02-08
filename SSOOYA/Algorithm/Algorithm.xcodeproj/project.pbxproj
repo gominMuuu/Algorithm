@@ -12,7 +12,6 @@
 		57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FA9296D7EDF0088B5F4 /* Deque.swift */; };
 		57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FAB296D7EEA0088B5F4 /* Heap.swift */; };
 		57C481F5296BD54D008731D9 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E1CA32963DE76005D2048 /* FileIO.swift */; };
-		EE2628CD2991D3590013137C /* 2579.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2628CC2991D3590013137C /* 2579.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -76,6 +75,7 @@
 		EE2BC3412981F03C002B5C60 /* 6416.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6416.swift; sourceTree = "<group>"; };
 		EE2BC34329820DF7002B5C60 /* 6416_retry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6416_retry.swift; sourceTree = "<group>"; };
 		EE2BC34529821C26002B5C60 /* 5639.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5639.swift; sourceTree = "<group>"; };
+		EE4F004E299319C60098A21B /* 10844.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10844.swift; sourceTree = "<group>"; };
 		EE50C55429888BC2005EA82C /* 13305.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13305.swift; sourceTree = "<group>"; };
 		EE50C55629889CB9005EA82C /* 13305_solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13305_solution.swift; sourceTree = "<group>"; };
 		EE50C55829889F8F005EA82C /* 19598.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 19598.swift; sourceTree = "<group>"; };
@@ -199,6 +199,7 @@
 				EE168C8C299077A80020D5CE /* 1463.swift */,
 				EE2628CA2991C5940013137C /* 9095.swift */,
 				EE2628CC2991D3590013137C /* 2579.swift */,
+				EE4F004E299319C60098A21B /* 10844.swift */,
 			);
 			path = DynamicProgramming1;
 			sourceTree = "<group>";
@@ -299,7 +300,6 @@
 				57397FA6296D7ECC0088B5F4 /* Stack.swift in Sources */,
 				57397FA8296D7ED70088B5F4 /* Queue.swift in Sources */,
 				57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */,
-				EE2628CD2991D3590013137C /* 2579.swift in Sources */,
 				57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */,
 				57C481F5296BD54D008731D9 /* FileIO.swift in Sources */,
 			);
