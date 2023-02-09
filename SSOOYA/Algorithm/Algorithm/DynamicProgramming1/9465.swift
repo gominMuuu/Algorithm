@@ -31,37 +31,21 @@ for _ in 1...n{
 func bottomUp(){
     
     //1행 -> 2행 순으로 진행
-    var firstDp = [Int](repeating: 0, count: m)
-    firstDp[0] = score[0][0]
-    for i in 1..<m{
-        var value = score[0][i]
-        if(i - 2 >= 0){
-            value = value + firstDp[i-2] + score[1][i-1]
-        }else if(i - 1 == 0){
-            value = value + score[1][i-1]
+    var dp = [[Int]](repeating: Array<Int>(repeating: 0, count: m), count: 2)
+    dp[0][0] = score[0][0]
+    dp[1][0] = score[1][0]
+    
+    if(m > 1){
+        dp[0][1] = score[1][0] + score[0][1]
+        dp[1][1] = score[0][0] + score[1][1]
+        //바로 전 대각선과 전전 대각선의 비교 필요
+        for j in 2..<m{
+            dp[0][j] = score[0][j] + max(dp[1][j-2], dp[1][j-1])
+            dp[1][j] = score[1][j] + max(dp[0][j-2], dp[0][j-1])
         }
-        if(i == m-1){
-            value = max(value, firstDp[i-2] + score[1][i])
-        }
-        firstDp[i] = max(value, firstDp[i-1])
     }
     
-    var secondDp = [Int](repeating: 0, count: m)
-    secondDp[0] = score[1][0]
-    for i in 1..<m{
-        var value = score[1][i]
-        if(i - 2 >= 0){
-            value = value + secondDp[i-2] + score[0][i-1]
-        }else if(i - 1 == 0){
-            value = value + score[0][i-1]
-        }
-        if(i == m-1){
-            value = max(value, secondDp[i-2] + score[0][i])
-        }
-        secondDp[i] = max(value, secondDp[i-1])
-    }
-    
-    result.append(max(firstDp.last!, secondDp.last!))
+    result.append(max(dp[0].last!, dp[1].last!))
 }
 
 result.forEach{
