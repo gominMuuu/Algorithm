@@ -12,7 +12,7 @@
 		57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FA9296D7EDF0088B5F4 /* Deque.swift */; };
 		57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FAB296D7EEA0088B5F4 /* Heap.swift */; };
 		57C481F5296BD54D008731D9 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E1CA32963DE76005D2048 /* FileIO.swift */; };
-		EE9B052E2994875700068503 /* 2293.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9B052D2994875700068503 /* 2293.swift */; };
+		EE73C5142995B4940000F8AC /* 11053.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE73C5132995B4940000F8AC /* 11053.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -81,6 +81,7 @@
 		EE50C55429888BC2005EA82C /* 13305.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13305.swift; sourceTree = "<group>"; };
 		EE50C55629889CB9005EA82C /* 13305_solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13305_solution.swift; sourceTree = "<group>"; };
 		EE50C55829889F8F005EA82C /* 19598.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 19598.swift; sourceTree = "<group>"; };
+		EE73C5132995B4940000F8AC /* 11053.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11053.swift; sourceTree = "<group>"; };
 		EE7C9FEF2989DE6200D2F238 /* 8980.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8980.swift; sourceTree = "<group>"; };
 		EE7C9FF12989F7E500D2F238 /* 1092.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1092.swift; sourceTree = "<group>"; };
 		EE9505CC298738AA00077B28 /* 1541.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1541.swift; sourceTree = "<group>"; };
@@ -207,6 +208,7 @@
 				EE4F0050299332C60098A21B /* 15486.swift */,
 				EE9B052B29946A0200068503 /* 9465.swift */,
 				EE9B052D2994875700068503 /* 2293.swift */,
+				EE73C5132995B4940000F8AC /* 11053.swift */,
 			);
 			path = DynamicProgramming1;
 			sourceTree = "<group>";
@@ -304,8 +306,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE9B052E2994875700068503 /* 2293.swift in Sources */,
 				57397FA6296D7ECC0088B5F4 /* Stack.swift in Sources */,
+				EE73C5142995B4940000F8AC /* 11053.swift in Sources */,
 				57397FA8296D7ED70088B5F4 /* Queue.swift in Sources */,
 				57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */,
 				57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */,
