@@ -9,39 +9,35 @@
 
 import Foundation
 
-let weightCount = Int(readLine()!)!
-let weights = readLine()!.split(separator: " ").map({ Int($0)! })
-let weightTotal = weights.reduce(0, { $0 + $1 })
+let w = Int(readLine()!)!
+var weights = readLine()!.split(separator: " ").map({ Int($0)! })
+weights.append(0)
 
-let marbleCount = Int(readLine()!)!
+let m = Int(readLine()!)!
 let marbles = readLine()!.split(separator: " ").map({ Int($0)! })
 
-var result = [String](repeating: "N", count: marbleCount)
-func topdown(left: Int, right: Int, index: Int){
-    if(left == right){
-        result[marbleIndex] = "Y"
-        return
-    }else if(index >= weightCount || result[marbleIndex] == "Y" || left > weightTotal){
+
+var dp = [[Bool]](repeating: [Bool](repeating: false, count: 31), count: 30 * 500 + 1)
+func topdown(i: Int, value: Int){
+    if(i > w || dp[i][value]){
         return
     }
-    
-    topdown(left: left, right: right, index: index + 1)
-    topdown(left: left + weights[index], right: 0, index: index + 1)
-    topdown(left: left, right: right + weights[index], index: index + 1)
+    dp[i][value] = true
+    topdown(i: i+1, value: value)
+    topdown(i: i+1, value: value + weights[i])
+    topdown(i: i+1, value: abs(value - weights[i]))
 }
 
-var marbleIndex = 0
+topdown(i: 0, value: 0)
+
+var result = ""
 for i in marbles{
-    //left는 구슬이 있는 저울, right는 구슬이 없는 저울
-    topdown(left: i, right: 0, index: 1)
-    topdown(left: i + weights[0], right: 0, index: 1)
-    topdown(left: i, right: 0 + weights[0], index: 1)
-    
-    marbleIndex += 1
+    if(i > 30 * 50){
+        result.write("N ")
+    }else if(dp[w][i]){
+        result.write("Y ")
+    }else{
+        result.write("N ")
+    }
 }
-
-var ans = ""
-for i in 0..<marbleCount{
-    i != marbleCount - 1 ? ans.write("\(result[i]) ") : ans.write("\(result[i])")
-}
-print(ans)
+print(result.trimmingCharacters(in: .whitespaces))
