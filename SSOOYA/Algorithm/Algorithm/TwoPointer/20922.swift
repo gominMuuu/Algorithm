@@ -10,49 +10,25 @@
 import Foundation
 
 let input = readLine()!.split(separator: " ").map({ Int($0)! })
-let size = input[0]
+let n = input[0]
 let limit = input[1]
 
 let array = readLine()!.split(separator: " ").map({ Int($0)! })
-var elementCount = [Int : [Int]]()
+var count = [Int](repeating: 0, count: 100001)
 
 var start = 0
+var end = 0
 var result = 0
-var count = 0
 
-while(start < size){
-    
-    if(result > size - start + count){
-        break
-    }
-
-    var end = start
-    while(end < size){
-        let element = array[end]
-        if(elementCount[element] == nil){
-            elementCount[element] = [Int]()
-        }
-        elementCount[element]!.append(end)
-        
-        if(elementCount[element]!.count > limit){
-            break
-        }
-        count += 1
+while(start < n){
+    if(count[array[start]] != limit){
+        count[array[start]] += 1
+        start += 1
+    }else{
+        count[array[end]] -= 1
         end += 1
     }
-
-    result = max(result, count)
-    if(end == size){
-        break
-    }
-    
-    start = elementCount[array[end]]![1]
-    
-    let removeIndex = elementCount[array[end]]![0]
-    for i in elementCount{
-        elementCount[i.key] = i.value.filter{ $0 > removeIndex && $0 < start}
-    }
-    count = start - removeIndex - 1
+    result = max(result, start - end)
 }
 
 print(result)
