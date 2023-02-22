@@ -23,7 +23,7 @@ public class bj20922 {
         int answer = 0;
         int cnt[] = new int[100001];
         while(end < arr.length) {
-            while(end < arr.length && cnt[arr[end]] + 1 <= K) {
+            while(end < arr.length && cnt[arr[end]] + 1 <= k) {
                 cnt[arr[end]]++;
                 end++;
             }
