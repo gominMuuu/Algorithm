@@ -12,7 +12,7 @@
 		57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FA9296D7EDF0088B5F4 /* Deque.swift */; };
 		57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FAB296D7EEA0088B5F4 /* Heap.swift */; };
 		57C481F5296BD54D008731D9 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E1CA32963DE76005D2048 /* FileIO.swift */; };
-		EE23EAED29AC3C4800C1DD53 /* 14719.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE23EAEC29AC3C4800C1DD53 /* 14719.swift */; };
+		EE00BB8929AD8451007CE728 /* 22860.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00BB8829AD8451007CE728 /* 22860.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +67,7 @@
 		57F68BAB2966432800DB1471 /* 1918.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1918.swift; sourceTree = "<group>"; };
 		57FEFA77297A0C3E008A78B0 /* 16916.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 16916.swift; sourceTree = "<group>"; };
 		57FEFA79297A2097008A78B0 /* 20437.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20437.swift; sourceTree = "<group>"; };
+		EE00BB8829AD8451007CE728 /* 22860.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 22860.swift; sourceTree = "<group>"; };
 		EE06312A29A2EAAD002830FB /* 20922.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20922.swift; sourceTree = "<group>"; };
 		EE0E0F0A299B05400007B92D /* 17485.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17485.swift; sourceTree = "<group>"; };
 		EE0E0F0C299B38140007B92D /* 2228.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2228.swift; sourceTree = "<group>"; };
@@ -261,6 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				EE23EAEC29AC3C4800C1DD53 /* 14719.swift */,
+				EE00BB8829AD8451007CE728 /* 22860.swift */,
 			);
 			path = Implementation;
 			sourceTree = "<group>";
@@ -357,8 +359,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				57397FA6296D7ECC0088B5F4 /* Stack.swift in Sources */,
-				EE23EAED29AC3C4800C1DD53 /* 14719.swift in Sources */,
 				57397FA8296D7ED70088B5F4 /* Queue.swift in Sources */,
+				EE00BB8929AD8451007CE728 /* 22860.swift in Sources */,
 				57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */,
 				57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */,
 				57C481F5296BD54D008731D9 /* FileIO.swift in Sources */,
