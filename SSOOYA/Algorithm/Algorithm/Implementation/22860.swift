@@ -14,7 +14,6 @@ let m = size[1] //파일
 //상위폴더 / 파일 이름 / 폴더 여부(폴더 -> 1, 폴더x -> 0)
 //ex. main FolderA 1
 
-
 var directory = [String: [String]]()
 var files = [String: [String]]()
 for _ in 1...n+m{
@@ -29,13 +28,10 @@ for _ in 1...n+m{
     }
 }
 
-var types = Set<String>()
-var counts = [String]()
-
+var fileCount = [String: Int]()
 func searchFile(key: String){
     if(directory[key] == nil){
-        types.insert(key)
-        counts.append(key)
+        fileCount[key] = fileCount[key] == nil ? 1 : fileCount[key]! + 1
     }
     directory[key]?.forEach{
         searchFile(key: $0)
@@ -49,14 +45,14 @@ var query: [String]
 for _ in 1...q{
     
     query = readLine()!.split(separator: "/").map({ String($0) })
-    types.removeAll()
-    counts.removeAll()
+    fileCount.removeAll()
     
     searchFile(key: query.last!)
     
     //(종류, 개수) 출력
-    result.append("\(types.count) \(counts.count)")
+    result.append("\(fileCount.count) \(fileCount.reduce(0){ $0 + $1.value})")
 }
+
 result.forEach{
     print($0)
 }
