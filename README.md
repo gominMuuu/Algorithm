@@ -4,7 +4,7 @@
 
 ```markdown
 solve/#issue_number: ~
-unsolve/#issu_number: ~
+unsolve/#issue_number: ~
 ```
 
 ### 이번 주 문제 - "구현"
