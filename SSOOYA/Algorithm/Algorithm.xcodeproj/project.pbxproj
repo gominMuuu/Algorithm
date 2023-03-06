@@ -12,6 +12,7 @@
 		57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FA9296D7EDF0088B5F4 /* Deque.swift */; };
 		57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FAB296D7EEA0088B5F4 /* Heap.swift */; };
 		57C481F5296BD54D008731D9 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E1CA32963DE76005D2048 /* FileIO.swift */; };
+		EE2E5E6A29B5687600545253 /* 2606.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2E5E6929B5687600545253 /* 2606.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -81,6 +82,7 @@
 		EE2BC3412981F03C002B5C60 /* 6416.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6416.swift; sourceTree = "<group>"; };
 		EE2BC34329820DF7002B5C60 /* 6416_retry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6416_retry.swift; sourceTree = "<group>"; };
 		EE2BC34529821C26002B5C60 /* 5639.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5639.swift; sourceTree = "<group>"; };
+		EE2E5E6929B5687600545253 /* 2606.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2606.swift; sourceTree = "<group>"; };
 		EE49615A29A44804000DA88C /* 20442.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20442.swift; sourceTree = "<group>"; };
 		EE4F004E299319C60098A21B /* 10844.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10844.swift; sourceTree = "<group>"; };
 		EE4F0050299332C60098A21B /* 15486.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15486.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				EEA30A142999B236009E30F7 /* DynamicProgramming2 */,
 				EE06312929A2EA98002830FB /* TwoPointer */,
 				EE23EAEB29AC3C2D00C1DD53 /* Implementation */,
+				EE2E5E6829B5686400545253 /* GraphSearch */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -270,6 +273,14 @@
 			path = Implementation;
 			sourceTree = "<group>";
 		};
+		EE2E5E6829B5686400545253 /* GraphSearch */ = {
+			isa = PBXGroup;
+			children = (
+				EE2E5E6929B5687600545253 /* 2606.swift */,
+			);
+			path = GraphSearch;
+			sourceTree = "<group>";
+		};
 		EE9505CB2987389000077B28 /* Greedy */ = {
 			isa = PBXGroup;
 			children = (
@@ -364,6 +375,7 @@
 				57397FA6296D7ECC0088B5F4 /* Stack.swift in Sources */,
 				57397FA8296D7ED70088B5F4 /* Queue.swift in Sources */,
 				57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */,
+				EE2E5E6A29B5687600545253 /* 2606.swift in Sources */,
 				57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */,
 				57C481F5296BD54D008731D9 /* FileIO.swift in Sources */,
 			);
