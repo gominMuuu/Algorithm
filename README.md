@@ -7,11 +7,11 @@ solve/#issue_number: ~
 unsolve/#issue_number: ~
 ```
 
-### 이번 주 문제 - "그래프 탐색"
+### 이번 주 문제 - "완전 탐색"
 
-| 3/6(월) | 3/7(화) | 3/8(수) | 3/9(목) | 3/10(금) |
+| 3/13(월) | 3/14(화) | 3/15(수) | 3/16(목) | 3/1(금) |
 | --- | --- | --- | --- | --- |
-| [2606](https://www.acmicpc.net/problem/2606) | [7576](https://www.acmicpc.net/problem/7576) | [2667](https://www.acmicpc.net/problem/2667) | [14940](https://www.acmicpc.net/problem/14940) | [1012](https://www.acmicpc.net/problem/1012) |
+| [2798](https://www.acmicpc.net/problem/2798) | [15686](https://www.acmicpc.net/problem/15686) | [14500](https://www.acmicpc.net/problem/14500) | [12919](https://www.acmicpc.net/problem/12919) | [2422](https://www.acmicpc.net/problem/2422) |
 
 
 
