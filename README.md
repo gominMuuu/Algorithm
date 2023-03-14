@@ -9,7 +9,7 @@ unsolve/#issue_number: ~
 
 ### 이번 주 문제 - "완전 탐색"
 
-| 3/13(월) | 3/14(화) | 3/15(수) | 3/16(목) | 3/1(금) |
+| 3/13(월) | 3/14(화) | 3/15(수) | 3/16(목) | 3/17(금) |
 | --- | --- | --- | --- | --- |
 | [2798](https://www.acmicpc.net/problem/2798) | [15686](https://www.acmicpc.net/problem/15686) | [14500](https://www.acmicpc.net/problem/14500) | [12919](https://www.acmicpc.net/problem/12919) | [2422](https://www.acmicpc.net/problem/2422) |
 
