@@ -10,8 +10,31 @@ import Foundation
 let s = Array(readLine()!)
 let t = Array(readLine()!)
 
+func dfs(string: [Character]){
+    if(string.count == s.count){
+        if(string == s){
+            print(1)
+            exit(0)
+        }
+        return
+    }
+    
+    if(string.last! == "A"){
+        dfs(string: Array(string[0..<string.count-1]))
+    }
+    
+    if(string.first! == "B"){
+        dfs(string: Array(string[1..<string.count]).reversed())
+    }
+}
+
+
+dfs(string: t)
+print(0)
+
+/*
 //solution 1. DFS > 시간 초과
-func bfs(string: [Character], append: Character){
+func dfs(string: [Character], append: Character){
     if(string.count == t.count){
         if(string == t){
             print(1)
@@ -32,8 +55,8 @@ func bfs(string: [Character], append: Character){
     }
 }
 
-bfs(string: s, append: "A")
-bfs(string: s, append: "B")
+dfs(string: s, append: "A")
+dfs(string: s, append: "B")
 print(0)
  
 
@@ -55,3 +78,4 @@ while(!set.isEmpty){
 }
 
 print(0)
+*/
