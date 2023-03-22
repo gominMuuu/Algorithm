@@ -1,12 +1,13 @@
 package Simulation;
 
-import java.io.*;
 import java.util.*;
+import java.io.*;
 
-class Alphabet {
+class Point {
     int x;
     int y;
-    public Alphabet(int x, int y) {
+
+    public Point(int x, int y) {
         this.x = x;
         this.y = y;
     }
@@ -14,68 +15,69 @@ class Alphabet {
 
 public class bj20436 {
     static char[][] keyboard = {{'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p'},
-                                {'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ' '},
-                                {'z', 'x', 'c', 'v', 'b', 'n', 'm', ' ', ' ', ' '}};
-    static HashMap<Character, Alphabet> map = new HashMap<>();
-    static int answer;
+            {'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ' '},
+            {'z', 'x', 'c', 'v', 'b', 'n', 'm', ' ', ' ', ' '}};
+    static char[] vowel = {'y', 'u', 'i', 'o', 'p', 'h', 'j', 'k', 'l', 'b', 'n', 'm'};
 
-    static Alphabet lA, rA;
+    static HashMap<Character, Point> map = new HashMap<>();
+    static Point lP, rP;
+    static int answer;
 
     public static void setKeyboard() {
         for(int i=0; i<3; i++) {
             for(int j=0; j<10; j++) {
                 if(keyboard[i][j] == ' ') continue;
-                map.put(keyboard[i][j], new Alphabet(i, j));
+                map.put(keyboard[i][j], new Point(i, j));
             }
         }
     }
-
-    public static int getDistance(Alphabet a1, Alphabet a2) {
-        int result = Math.abs(a1.x - a2.x) + Math.abs(a1.y - a2.y);
-        return result;
-    }
-
-    public static void solve(char x) {
-        Alphabet target = map.get(x);
-        if(lA == target) {
-            lA = target;
+    public static void solve(Character ch) {
+        Point target = map.get(ch);
+        if(target == lP || target == rP) {
             answer++;
             return;
         }
-        if(rA == target) {
-            rA = target;
-            answer++;
-            return;
+        boolean isVowel = false;
+        for(int i=0; i<vowel.length; i++) {
+            if(vowel[i] == ch) {
+                isVowel = true;
+                break;
+            }
         }
-        int timeWithLA = getDistance(target, lA);
-        int timeWithRA = getDistance(target, rA);
-
-        int time = Math.min(timeWithLA, timeWithRA);
-        answer += time;
-
-        if(timeWithLA > timeWithRA) {
-            rA = target;
-        } else if(timeWithLA < timeWithRA) {
-            lA = target;
+        if(isVowel) {
+            answer += getDistance(target, rP);
+            rP = target;
+        } else {
+            answer += getDistance(target, lP);
+            lP = target;
         }
         answer++;
+    }
+    public static int getDistance(Point target, Point p) {
+        int result = Math.abs(target.x - p.x) + Math.abs(target.y - p.y);
+        return result;
     }
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st;
+
+        st = new StringTokenizer(br.readLine(), " ");
+        char lA = st.nextToken().charAt(0);
+        char rA = st.nextToken().charAt(0);
 
         setKeyboard();
 
-        String[] strArr = br.readLine().split(" ");
-        lA = map.get(strArr[0].charAt(0));
-        rA = map.get(strArr[1].charAt(0));
+        lP = map.get(lA);
+        rP = map.get(rA);
 
-        char[] chArr = br.readLine().toCharArray();
-        for(int i=0; i<chArr.length; i++) {
-            solve(chArr[i]);
+        String str = br.readLine();
+        char[] arr = str.toCharArray();
+        for(int i=0; i<arr.length; i++) {
+            solve(arr[i]);
         }
 
-        System.out.println(answer);
+        System.out.print(answer);
 
     }
 }
