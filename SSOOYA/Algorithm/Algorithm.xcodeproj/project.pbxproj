@@ -13,7 +13,7 @@
 		57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FAB296D7EEA0088B5F4 /* Heap.swift */; };
 		57C481F5296BD54D008731D9 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E1CA32963DE76005D2048 /* FileIO.swift */; };
 		EE2738B529BFFE25006077A3 /* Combination.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2738B429BFFE25006077A3 /* Combination.swift */; };
-		EE3A957929D25AC100CA1A70 /* 10815.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3A957829D25AC100CA1A70 /* 10815.swift */; };
+		EEED55B229D3B4F800E6EDE5 /* 2470.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEED55B129D3B4F800E6EDE5 /* 2470.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -130,6 +130,7 @@
 		EECCE33A29BAD16400838047 /* 1012.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1012.swift; sourceTree = "<group>"; };
 		EEE1154F29A8374A003FD4E3 /* 11728.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11728.swift; sourceTree = "<group>"; };
 		EEEC46E529A5A1ED000B3B26 /* 20366.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20366.swift; sourceTree = "<group>"; };
+		EEED55B129D3B4F800E6EDE5 /* 2470.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2470.swift; sourceTree = "<group>"; };
 		EEEE55AA29B6B26800E7E1C3 /* 7576.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7576.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -336,6 +337,7 @@
 			children = (
 				EE41DC1F29D10981000A1A4C /* 1789.swift */,
 				EE3A957829D25AC100CA1A70 /* 10815.swift */,
+				EEED55B129D3B4F800E6EDE5 /* 2470.swift */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -433,10 +435,10 @@
 			files = (
 				57397FA6296D7ECC0088B5F4 /* Stack.swift in Sources */,
 				57397FA8296D7ED70088B5F4 /* Queue.swift in Sources */,
+				EEED55B229D3B4F800E6EDE5 /* 2470.swift in Sources */,
 				57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */,
 				57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */,
 				57C481F5296BD54D008731D9 /* FileIO.swift in Sources */,
-				EE3A957929D25AC100CA1A70 /* 10815.swift in Sources */,
 				EE2738B529BFFE25006077A3 /* Combination.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
