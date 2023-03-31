@@ -6,23 +6,6 @@ import java.util.*;
 public class bj1477 {
     static int[] dist;
 
-    public static Stack<Integer> sortedStack(Stack stack){
-        Stack<Integer> newStack = new Stack<>();
-        while (!stack.isEmpty()){
-            int value = (int) stack.pop();
-
-            if(!newStack.isEmpty() && value >= newStack.peek()){
-                newStack.push(value);
-            } else {
-                while (!newStack.isEmpty() && newStack.peek() > value){
-                    stack.push(newStack.pop());
-                }
-                newStack.push(value);
-            }
-        }
-        return newStack;
-    }
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
@@ -50,26 +33,26 @@ public class bj1477 {
         }
 
         Arrays.sort(dist);
-        Stack<Integer> stack = new Stack<>();
+        //높은 숫자가 우선 순위인 int 형 우선순위 큐 선언
+        PriorityQueue<Integer> queue = new PriorityQueue<>(Collections.reverseOrder());
         for(int x : dist) {
-            stack.add(x);
+            queue.add(x);
         }
 
         int cnt = 1;
-        while(cnt <= m && !stack.isEmpty()) {
-            int num = stack.pop();
+        while(cnt <= m && !queue.isEmpty()) {
+            int num = queue.poll();
             if(num % 2 == 0) {
-                stack.add(num / 2);
+                queue.add(num / 2);
             } else {
                 int a = num / 2;
                 int b = num / 2 + 1;
-                stack.add(a);
-                stack.add(b);
+                queue.add(a);
+                queue.add(b);
             }
             cnt++;
-            stack = sortedStack(stack);
         }
 
-        System.out.println(stack.peek());
+        System.out.println(queue.peek());
     }
 }
