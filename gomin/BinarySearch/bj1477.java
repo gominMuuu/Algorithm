@@ -28,31 +28,22 @@ public class bj1477 {
 
         // 정렬
         Arrays.sort(arr);
-        for(int i=0; i<n+1; i++) {
-            dist[i] = arr[i + 1] - arr[i];
-        }
 
-        Arrays.sort(dist);
-        //높은 숫자가 우선 순위인 int 형 우선순위 큐 선언
-        PriorityQueue<Integer> queue = new PriorityQueue<>(Collections.reverseOrder());
-        for(int x : dist) {
-            queue.add(x);
-        }
+        int lt = 1, rt = l-1;
+        while(lt <= rt) {
+            int mid = (lt + rt) / 2;
+            int sum = 0;
 
-        int cnt = 1;
-        while(cnt <= m && !queue.isEmpty()) {
-            int num = queue.poll();
-            if(num % 2 == 0) {
-                queue.add(num / 2);
-            } else {
-                int a = num / 2;
-                int b = num / 2 + 1;
-                queue.add(a);
-                queue.add(b);
+            for(int i=1; i<arr.length; i++) {
+                sum += (arr[i] - arr[i-1] - 1) / mid;
             }
-            cnt++;
-        }
 
-        System.out.println(queue.peek());
+            if(sum > m) {
+                lt = mid+1;
+            } else {
+                rt = mid-1;
+            }
+        }
+        System.out.println(lt);
     }
 }
