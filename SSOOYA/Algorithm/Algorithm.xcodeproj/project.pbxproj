@@ -12,8 +12,8 @@
 		57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FA9296D7EDF0088B5F4 /* Deque.swift */; };
 		57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FAB296D7EEA0088B5F4 /* Heap.swift */; };
 		57C481F5296BD54D008731D9 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E1CA32963DE76005D2048 /* FileIO.swift */; };
+		EE090B6529DA442F0087A69B /* 15649.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE090B6429DA442F0087A69B /* 15649.swift */; };
 		EE2738B529BFFE25006077A3 /* Combination.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2738B429BFFE25006077A3 /* Combination.swift */; };
-		EE7D35F029D6587200D2AD60 /* 1477.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7D35EF29D6587200D2AD60 /* 1477.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +70,7 @@
 		57FEFA79297A2097008A78B0 /* 20437.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20437.swift; sourceTree = "<group>"; };
 		EE00BB8829AD8451007CE728 /* 22860.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 22860.swift; sourceTree = "<group>"; };
 		EE06312A29A2EAAD002830FB /* 20922.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20922.swift; sourceTree = "<group>"; };
+		EE090B6429DA442F0087A69B /* 15649.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15649.swift; sourceTree = "<group>"; };
 		EE0D8E4E29B8287000D96050 /* 2667.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2667.swift; sourceTree = "<group>"; };
 		EE0E0F0A299B05400007B92D /* 17485.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17485.swift; sourceTree = "<group>"; };
 		EE0E0F0C299B38140007B92D /* 2228.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2228.swift; sourceTree = "<group>"; };
@@ -202,6 +203,7 @@
 				EE2738AB29BE964C006077A3 /* BruteForce */,
 				EE27C53729C7D22C00285CC5 /* Simulation */,
 				EE41DC1E29D10957000A1A4C /* BinarySearch */,
+				EE090B6329DA44150087A69B /* Backtracking */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -253,6 +255,14 @@
 				EEE1154F29A8374A003FD4E3 /* 11728.swift */,
 			);
 			path = TwoPointer;
+			sourceTree = "<group>";
+		};
+		EE090B6329DA44150087A69B /* Backtracking */ = {
+			isa = PBXGroup;
+			children = (
+				EE090B6429DA442F0087A69B /* 15649.swift */,
+			);
+			path = Backtracking;
 			sourceTree = "<group>";
 		};
 		EE168C89299071F10020D5CE /* DynamicProgramming1 */ = {
@@ -437,13 +447,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE7D35F029D6587200D2AD60 /* 1477.swift in Sources */,
 				57397FA6296D7ECC0088B5F4 /* Stack.swift in Sources */,
 				57397FA8296D7ED70088B5F4 /* Queue.swift in Sources */,
 				57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */,
 				57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */,
 				57C481F5296BD54D008731D9 /* FileIO.swift in Sources */,
 				EE2738B529BFFE25006077A3 /* Combination.swift in Sources */,
+				EE090B6529DA442F0087A69B /* 15649.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
