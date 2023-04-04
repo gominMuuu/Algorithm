@@ -12,8 +12,8 @@
 		57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FA9296D7EDF0088B5F4 /* Deque.swift */; };
 		57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FAB296D7EEA0088B5F4 /* Heap.swift */; };
 		57C481F5296BD54D008731D9 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E1CA32963DE76005D2048 /* FileIO.swift */; };
-		EE090B6529DA442F0087A69B /* 15649.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE090B6429DA442F0087A69B /* 15649.swift */; };
 		EE2738B529BFFE25006077A3 /* Combination.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2738B429BFFE25006077A3 /* Combination.swift */; };
+		EEED6B5829DB9CDB00EF57D3 /* 15650.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEED6B5729DB9CDB00EF57D3 /* 15650.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -134,6 +134,7 @@
 		EEE1154F29A8374A003FD4E3 /* 11728.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11728.swift; sourceTree = "<group>"; };
 		EEEC46E529A5A1ED000B3B26 /* 20366.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20366.swift; sourceTree = "<group>"; };
 		EEED55B129D3B4F800E6EDE5 /* 2470.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2470.swift; sourceTree = "<group>"; };
+		EEED6B5729DB9CDB00EF57D3 /* 15650.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15650.swift; sourceTree = "<group>"; };
 		EEEE55AA29B6B26800E7E1C3 /* 7576.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7576.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -261,6 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				EE090B6429DA442F0087A69B /* 15649.swift */,
+				EEED6B5729DB9CDB00EF57D3 /* 15650.swift */,
 			);
 			path = Backtracking;
 			sourceTree = "<group>";
@@ -452,8 +454,8 @@
 				57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */,
 				57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */,
 				57C481F5296BD54D008731D9 /* FileIO.swift in Sources */,
+				EEED6B5829DB9CDB00EF57D3 /* 15650.swift in Sources */,
 				EE2738B529BFFE25006077A3 /* Combination.swift in Sources */,
-				EE090B6529DA442F0087A69B /* 15649.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
