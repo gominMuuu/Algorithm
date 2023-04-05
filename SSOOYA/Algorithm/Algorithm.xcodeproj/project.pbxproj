@@ -13,7 +13,7 @@
 		57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FAB296D7EEA0088B5F4 /* Heap.swift */; };
 		57C481F5296BD54D008731D9 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E1CA32963DE76005D2048 /* FileIO.swift */; };
 		EE2738B529BFFE25006077A3 /* Combination.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2738B429BFFE25006077A3 /* Combination.swift */; };
-		EEED6B5829DB9CDB00EF57D3 /* 15650.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEED6B5729DB9CDB00EF57D3 /* 15650.swift */; };
+		EED4AE6129DD0B2D002C8965 /* 14712.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED4AE6029DD0B2D002C8965 /* 14712.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -131,6 +131,7 @@
 		EEC30CAD299C54AC007ED33D /* 21923.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21923.swift; sourceTree = "<group>"; };
 		EECCE33629B98B7900838047 /* 14940.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14940.swift; sourceTree = "<group>"; };
 		EECCE33A29BAD16400838047 /* 1012.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1012.swift; sourceTree = "<group>"; };
+		EED4AE6029DD0B2D002C8965 /* 14712.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14712.swift; sourceTree = "<group>"; };
 		EEE1154F29A8374A003FD4E3 /* 11728.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11728.swift; sourceTree = "<group>"; };
 		EEEC46E529A5A1ED000B3B26 /* 20366.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20366.swift; sourceTree = "<group>"; };
 		EEED55B129D3B4F800E6EDE5 /* 2470.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2470.swift; sourceTree = "<group>"; };
@@ -263,6 +264,7 @@
 			children = (
 				EE090B6429DA442F0087A69B /* 15649.swift */,
 				EEED6B5729DB9CDB00EF57D3 /* 15650.swift */,
+				EED4AE6029DD0B2D002C8965 /* 14712.swift */,
 			);
 			path = Backtracking;
 			sourceTree = "<group>";
@@ -452,9 +454,9 @@
 				57397FA6296D7ECC0088B5F4 /* Stack.swift in Sources */,
 				57397FA8296D7ED70088B5F4 /* Queue.swift in Sources */,
 				57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */,
+				EED4AE6129DD0B2D002C8965 /* 14712.swift in Sources */,
 				57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */,
 				57C481F5296BD54D008731D9 /* FileIO.swift in Sources */,
-				EEED6B5829DB9CDB00EF57D3 /* 15650.swift in Sources */,
 				EE2738B529BFFE25006077A3 /* Combination.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
