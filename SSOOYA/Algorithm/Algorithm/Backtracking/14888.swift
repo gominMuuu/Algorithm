@@ -11,7 +11,7 @@ let n = Int(readLine()!)!
 let num = readLine()!.split(separator: " ").map{ Int($0)! }
 var operators = readLine()!.split(separator: " ").map{ Int($0)! }
 
-var result = [-Int.max, Int.max] //최소, 최대
+var result = [-Int.max, Int.max] //최대, 최소
 
 func dfs(index: Int, sum: Int){
 
