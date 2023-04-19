@@ -12,8 +12,8 @@
 		57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FA9296D7EDF0088B5F4 /* Deque.swift */; };
 		57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FAB296D7EEA0088B5F4 /* Heap.swift */; };
 		57C481F5296BD54D008731D9 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E1CA32963DE76005D2048 /* FileIO.swift */; };
+		EE0EF52329EF772B0087EA71 /* 2167.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0EF52229EF772B0087EA71 /* 2167.swift */; };
 		EE2738B529BFFE25006077A3 /* Combination.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2738B429BFFE25006077A3 /* Combination.swift */; };
-		EE8B876A29EE0D8D00C463A2 /* 20438.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B876929EE0D8D00C463A2 /* 20438.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -77,6 +77,7 @@
 		EE0D8E4E29B8287000D96050 /* 2667.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2667.swift; sourceTree = "<group>"; };
 		EE0E0F0A299B05400007B92D /* 17485.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17485.swift; sourceTree = "<group>"; };
 		EE0E0F0C299B38140007B92D /* 2228.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2228.swift; sourceTree = "<group>"; };
+		EE0EF52229EF772B0087EA71 /* 2167.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2167.swift; sourceTree = "<group>"; };
 		EE168C8A299072160020D5CE /* 2748.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2748.swift; sourceTree = "<group>"; };
 		EE168C8C299077A80020D5CE /* 1463.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1463.swift; sourceTree = "<group>"; };
 		EE16DDAC297F4EA8002D4A65 /* 11725.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11725.swift; sourceTree = "<group>"; };
@@ -354,6 +355,7 @@
 			children = (
 				EE2994F629ECBF9E008E2E5D /* 11660.swift */,
 				EE8B876929EE0D8D00C463A2 /* 20438.swift */,
+				EE0EF52229EF772B0087EA71 /* 2167.swift */,
 			);
 			path = PrefixSum;
 			sourceTree = "<group>";
@@ -490,8 +492,8 @@
 				57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */,
 				57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */,
 				57C481F5296BD54D008731D9 /* FileIO.swift in Sources */,
+				EE0EF52329EF772B0087EA71 /* 2167.swift in Sources */,
 				EE2738B529BFFE25006077A3 /* Combination.swift in Sources */,
-				EE8B876A29EE0D8D00C463A2 /* 20438.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
