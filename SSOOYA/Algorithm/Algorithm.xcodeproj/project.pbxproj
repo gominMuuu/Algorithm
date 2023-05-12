@@ -12,8 +12,8 @@
 		57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FA9296D7EDF0088B5F4 /* Deque.swift */; };
 		57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FAB296D7EEA0088B5F4 /* Heap.swift */; };
 		57C481F5296BD54D008731D9 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E1CA32963DE76005D2048 /* FileIO.swift */; };
-		EE1840C82A0C714900DF5D06 /* 9536.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1840C72A0C714900DF5D06 /* 9536.swift */; };
 		EE2738B529BFFE25006077A3 /* Combination.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2738B429BFFE25006077A3 /* Combination.swift */; };
+		EE4EFAF72A0DD32700734D31 /* 1213.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4EFAF62A0DD32700734D31 /* 1213.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -116,6 +116,7 @@
 		EE4CE7C429FB796800943FE5 /* 13549.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13549.swift; sourceTree = "<group>"; };
 		EE4CEA3629FF2DFC002BF87E /* 2504.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2504.swift; sourceTree = "<group>"; };
 		EE4CEA442A0086B8002BF87E /* 9012.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9012.swift; sourceTree = "<group>"; };
+		EE4EFAF62A0DD32700734D31 /* 1213.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1213.swift; sourceTree = "<group>"; };
 		EE4F004E299319C60098A21B /* 10844.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10844.swift; sourceTree = "<group>"; };
 		EE4F0050299332C60098A21B /* 15486.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15486.swift; sourceTree = "<group>"; };
 		EE50C55429888BC2005EA82C /* 13305.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13305.swift; sourceTree = "<group>"; };
@@ -191,6 +192,7 @@
 				EEA0601B2A09BFC60069A61D /* 4659.swift */,
 				EE0460AF2A0B35E00054F627 /* 12871.swift */,
 				EE1840C72A0C714900DF5D06 /* 9536.swift */,
+				EE4EFAF62A0DD32700734D31 /* 1213.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -526,7 +528,7 @@
 				57397FA6296D7ECC0088B5F4 /* Stack.swift in Sources */,
 				57397FA8296D7ED70088B5F4 /* Queue.swift in Sources */,
 				57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */,
-				EE1840C82A0C714900DF5D06 /* 9536.swift in Sources */,
+				EE4EFAF72A0DD32700734D31 /* 1213.swift in Sources */,
 				57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */,
 				57C481F5296BD54D008731D9 /* FileIO.swift in Sources */,
 				EE2738B529BFFE25006077A3 /* Combination.swift in Sources */,
