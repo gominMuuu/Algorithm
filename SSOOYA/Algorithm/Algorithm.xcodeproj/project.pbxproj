@@ -13,7 +13,7 @@
 		57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FAB296D7EEA0088B5F4 /* Heap.swift */; };
 		57C481F5296BD54D008731D9 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E1CA32963DE76005D2048 /* FileIO.swift */; };
 		EE2738B529BFFE25006077A3 /* Combination.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2738B429BFFE25006077A3 /* Combination.swift */; };
-		EE55878B2A1F0652009A020B /* 1106.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE55878A2A1F0652009A020B /* 1106.swift */; };
+		EE3D6BB92A204C110087DFD6 /* 2670.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3D6BB82A204C110087DFD6 /* 2670.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -111,6 +111,7 @@
 		EE36DCFE29D5278300A0612B /* 3079.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3079.swift; sourceTree = "<group>"; };
 		EE37A8BF2A086B7D0011FB44 /* 16171.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 16171.swift; sourceTree = "<group>"; };
 		EE3A957829D25AC100CA1A70 /* 10815.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10815.swift; sourceTree = "<group>"; };
+		EE3D6BB82A204C110087DFD6 /* 2670.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2670.swift; sourceTree = "<group>"; };
 		EE41DC1F29D10981000A1A4C /* 1789.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1789.swift; sourceTree = "<group>"; };
 		EE42F93E2A17193F00AFDD03 /* 1967.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1967.swift; sourceTree = "<group>"; };
 		EE46CFEC2A1DB6A20055E30B /* 11726.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11726.swift; sourceTree = "<group>"; };
@@ -334,6 +335,7 @@
 				EEE0F2CA2A1C3E8C006C0D25 /* 2407.swift */,
 				EE46CFEC2A1DB6A20055E30B /* 11726.swift */,
 				EE55878A2A1F0652009A020B /* 1106.swift */,
+				EE3D6BB82A204C110087DFD6 /* 2670.swift */,
 			);
 			path = DynamicProgramming1;
 			sourceTree = "<group>";
@@ -547,8 +549,8 @@
 				57397FA8296D7ED70088B5F4 /* Queue.swift in Sources */,
 				57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */,
 				57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */,
+				EE3D6BB92A204C110087DFD6 /* 2670.swift in Sources */,
 				57C481F5296BD54D008731D9 /* FileIO.swift in Sources */,
-				EE55878B2A1F0652009A020B /* 1106.swift in Sources */,
 				EE2738B529BFFE25006077A3 /* Combination.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
