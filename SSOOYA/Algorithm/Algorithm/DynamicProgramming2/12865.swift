@@ -18,10 +18,9 @@ for _ in 1...n{
 
 var dp = [[Int]](repeating: [Int](repeating: 0, count: k+1), count: n+1)
 for i in stride(from: 1, to: n+1, by: +1){
+    let w = products[i].0
+    let v = products[i].1
     for j in stride(from: 1, to: k+1, by: +1){
-        let w = products[i].0
-        let v = products[i].1
-        
         if j < w {
             dp[i][j] = dp[i-1][j]
         } else {
