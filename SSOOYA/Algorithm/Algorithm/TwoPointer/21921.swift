@@ -14,24 +14,18 @@ let nodes = readLine()!.split(separator: " ").map{ Int($0)!}
 
 var left = 0, right = left + k - 1
 var ans: (sum: Int, count: Int) = (0,0)
-var temp: Int = nodes[left...right].reduce(0){ $0 + $1 }
+var temp: Int = nodes[left..<right].reduce(0){ $0 + $1 }
 
-while true {
-    if right - left == k{ //간격 k보다 큰 경우
-        temp -= nodes[left]
-        left += 1
-    } else { //간격 k인 경우
-        if temp > ans.sum {
-            ans = (temp, 1)
-        } else if temp == ans.sum {
-            ans.count += 1
-        }
-        right += 1
-        if right >= n{
-            break
-        }
-        temp += nodes[right]
+while right < n {
+    temp += nodes[right]
+    if temp > ans.sum {
+        ans = (temp, 1)
+    } else if temp == ans.sum {
+        ans.count += 1
     }
+    temp -= nodes[left]
+    left += 1
+    right += 1
 }
 
 if ans.sum == 0 {
