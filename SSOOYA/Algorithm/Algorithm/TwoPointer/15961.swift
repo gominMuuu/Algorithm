@@ -52,3 +52,6 @@ repeat {
 } while end != k - 1
 
 print(ans)
+
+var a = [c:1]
+a.removeValue(forKey: <#T##Int#>)
