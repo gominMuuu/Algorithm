@@ -7,11 +7,11 @@ solve/#issue_number: ~
 unsolve/#issue_number: ~
 ```
 
-### 이번 주 문제 - "투포인터"
+### 이번 주 문제 - "완전탐색"
 
-| 6/19(월) | 6/20(화) | 6/21(수) | 6/22(목) | 6/23(금) |
+| 6/26(월) | 6/27(화) | 6/28(수) | 6/29(목) | 6/30(금) |
 | --- | --- | --- | --- | --- |
-| []() | []() | [21921](https://www.acmicpc.net/problem/21921) | [15961](https://www.acmicpc.net/problem/15961) | [1806](https://www.acmicpc.net/problem/1806) |
+| [2231](https://www.acmicpc.net/problem/2231) | [2503](https://www.acmicpc.net/problem/2503) | [17626](https://www.acmicpc.net/problem/17626) | [14501](https://www.acmicpc.net/problem/14501) | [16637](https://www.acmicpc.net/problem/16637) |
 
 
 ---
