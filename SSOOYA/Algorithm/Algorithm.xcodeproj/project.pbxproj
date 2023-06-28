@@ -13,7 +13,7 @@
 		57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397FAB296D7EEA0088B5F4 /* Heap.swift */; };
 		57C481F5296BD54D008731D9 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E1CA32963DE76005D2048 /* FileIO.swift */; };
 		EE2738B529BFFE25006077A3 /* Combination.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2738B429BFFE25006077A3 /* Combination.swift */; };
-		EE5BFFAE2A4A898C00C242DC /* 2503.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5BFFAD2A4A898C00C242DC /* 2503.swift */; };
+		EE5BFFBC2A4BDB5700C242DC /* 17626.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5BFFBB2A4BDB5700C242DC /* 17626.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -136,6 +136,7 @@
 		EE55878A2A1F0652009A020B /* 1106.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1106.swift; sourceTree = "<group>"; };
 		EE5BFF962A492D2C00C242DC /* 2231.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2231.swift; sourceTree = "<group>"; };
 		EE5BFFAD2A4A898C00C242DC /* 2503.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2503.swift; sourceTree = "<group>"; };
+		EE5BFFBB2A4BDB5700C242DC /* 17626.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17626.swift; sourceTree = "<group>"; };
 		EE6AB9312A26EAD100F18596 /* 12865.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12865.swift; sourceTree = "<group>"; };
 		EE6AEA9F29AEE8DB00AB6E16 /* 4396.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4396.swift; sourceTree = "<group>"; };
 		EE73C5132995B4940000F8AC /* 11053.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11053.swift; sourceTree = "<group>"; };
@@ -394,6 +395,7 @@
 				EE813FD929C4209C0091F16E /* 2422.swift */,
 				EE5BFF962A492D2C00C242DC /* 2231.swift */,
 				EE5BFFAD2A4A898C00C242DC /* 2503.swift */,
+				EE5BFFBB2A4BDB5700C242DC /* 17626.swift */,
 			);
 			path = BruteForce;
 			sourceTree = "<group>";
@@ -566,10 +568,10 @@
 				57397FA6296D7ECC0088B5F4 /* Stack.swift in Sources */,
 				57397FA8296D7ED70088B5F4 /* Queue.swift in Sources */,
 				57397FAA296D7EDF0088B5F4 /* Deque.swift in Sources */,
+				EE5BFFBC2A4BDB5700C242DC /* 17626.swift in Sources */,
 				57397FB1296E2E1C0088B5F4 /* Heap.swift in Sources */,
 				57C481F5296BD54D008731D9 /* FileIO.swift in Sources */,
 				EE2738B529BFFE25006077A3 /* Combination.swift in Sources */,
-				EE5BFFAE2A4A898C00C242DC /* 2503.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
